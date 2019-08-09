@@ -54,3 +54,27 @@ print(type(set2))
 
 # Output: <class 'set'> # We did it, yay!
 # So, that's how we can create empty sets without issues.
+
+#---------------------------------------------------------------------
+
+## Dictinoaries. The most important data structure in my opinion.
+# We all know Dictionaries store key-value pairs and can its elements can be accessed by using either keys or values, because they are unordered just like sets.
+
+# However, there is a interesting thing we can do with dict.get() function. It can be used to provide a custom output for selective custom inputs.
+
+# Let's see how it works.
+
+dict1 = {}
+dict1['apple'] = "Apples frighten doctors" # We are adding a few key-value pairs to the dict1 dictionary
+dict1['spider'] = "Spiders frighten Ron"
+dict1['error'] = "Unusual errors frighten programmers"
+print(dict1) # Output: {'apple': 'Apples frighten doctors', 'spider': 'Spiders frighten Ron', 'error': 'Unusual errors frighten programmers'}
+
+# So, now I want to users accessing my dictionary for key 'bug' to shown a custom output.
+# print(dict1['bug']) # Normal usage raises an KeyError like in this statement
+
+print(dict1.get('bug',"It isn't a bug. It's a feature.")) # That's how we do it.
+
+# Output: It isn't a bug. It's a feature.
+
+# I hope you guys like these hidden or unknown features of Python. And if you do please, star this repo for more updates.
