@@ -1,4 +1,7 @@
-﻿class Solution(object):
+# Link: https://leetcode.com/problems/two-sum/
+# 1. 1. Two Sum
+
+class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if len(nums) <= 1:
             return False
