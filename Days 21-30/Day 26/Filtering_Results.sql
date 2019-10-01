@@ -21,3 +21,8 @@ Tables represented below are taken from "https://campus.datacamp.com/courses/int
 Here the tables are 
  • Table1:
 */
+
+
+/*
+My 100days of Code Challenge is puased as of now. I will continue this in near future 
+*/
